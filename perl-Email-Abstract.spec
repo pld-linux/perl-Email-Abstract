@@ -15,7 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	447bc3a9be4f0e2814fa514924105ea0
-BuildRequires:	perl-Email-Simple >= 1.91
+BuildRequires:	perl-Email-Simple >= 1:1.91
 BuildRequires:	perl-Module-Pluggable >= 1.5
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
