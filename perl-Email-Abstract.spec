@@ -1,5 +1,3 @@
-# ToDo:
-# - pl summary/description
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
@@ -8,11 +6,11 @@
 %define	pdir	Email
 %define	pnam	Abstract
 Summary:	Unified interface to mail representations
-Summary(pl):	Zunifikiowany interfejs do prezentacji maili
+Summary(pl):	Zunifikiowany interfejs do reprezentacji listów
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.0
 Release:	1
-# note if it is "same as perl"
+# same as perl
 License:	GPL v1+ or Artistic	
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -40,7 +38,21 @@ are encouraged to create their own Email::Abstract::* class by copying
 Email::Abstract::EmailSimple. All modules installed under the
 Email::Abstract hierarchy will be automatically picked up and used.
 
-#%description -l pl
+%description -l pl
+Email::Abstract dostarcza pisz±cym modu³y mo¿liwo¶æ pisania kodu
+obs³uguj±cego listy elektroniczne niezale¿nie od reprezentacji. Na
+przyk³ad w przypadku Mail::Thread lub Mail::ListDetector znacz±ca
+czê¶æ kodu dotyczy czytania nag³ówków z obiektu listu. Tam, gdzie
+poprzednio trzeba by³o podaæ wymagan± nazwê klasy lub zbudowaæ
+nowy obiekt od pocz±tku, mo¿na u¿yæ Email::Abstract do wykonania
+pewnych prostych operacji na obiekcie niezale¿nie od jego
+reprezentacji.
+
+Email::Abstract aktualnie obs³uguje Mail::Internet, MIME::Entity,
+Mail::Message, Email::Simple oraz Email::MIME. Dla innych
+reprezentacji zaleca siê stworzyæ w³asn± klasê Email::Abstract::*
+poprzez skopiowanie Email::Abstract::EmailSimple. Wszystkie modu³y
+zainstalowane w hierarchii Email::Abstract s± automatycznie u¿ywane.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
