@@ -7,7 +7,7 @@
 %define	pnam	Abstract
 Summary:	Unified interface to mail representations
 Summary(pl):	Zunifikiowany interfejs do reprezentacji listów
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Email-Abstract
 Version:	1.0
 Release:	1
 # same as perl
