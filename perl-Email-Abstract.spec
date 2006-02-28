@@ -11,7 +11,7 @@ Name:		perl-Email-Abstract
 Version:	2.01
 Release:	1
 # same as perl
-License:	GPL v1+ or Artistic	
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	447bc3a9be4f0e2814fa514924105ea0
