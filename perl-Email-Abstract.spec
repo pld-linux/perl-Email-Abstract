@@ -9,12 +9,13 @@ Summary:	Unified interface to mail representations
 Summary(pl):	Zunifikiowany interfejs do reprezentacji listów
 Name:		perl-Email-Abstract
 Version:	2.13
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	86717406b12436118e74dc2d593a7b59
+URL:		http://search.cpan.org/dist/Email-Abstract/
 BuildRequires:	perl-Email-Simple >= 1:1.91
 BuildRequires:	perl-Module-Pluggable >= 1.5
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -43,10 +44,9 @@ Email::Abstract dostarcza pisz±cym modu³y mo¿liwo¶æ pisania kodu
 obs³uguj±cego listy elektroniczne niezale¿nie od reprezentacji. Na
 przyk³ad w przypadku Mail::Thread lub Mail::ListDetector znacz±ca
 czê¶æ kodu dotyczy czytania nag³ówków z obiektu listu. Tam, gdzie
-poprzednio trzeba by³o podaæ wymagan± nazwê klasy lub zbudowaæ
-nowy obiekt od pocz±tku, mo¿na u¿yæ Email::Abstract do wykonania
-pewnych prostych operacji na obiekcie niezale¿nie od jego
-reprezentacji.
+poprzednio trzeba by³o podaæ wymagan± nazwê klasy lub zbudowaæ nowy
+obiekt od pocz±tku, mo¿na u¿yæ Email::Abstract do wykonania pewnych
+prostych operacji na obiekcie niezale¿nie od jego reprezentacji.
 
 Email::Abstract aktualnie obs³uguje Mail::Internet, MIME::Entity,
 Mail::Message, Email::Simple oraz Email::MIME. Dla innych
