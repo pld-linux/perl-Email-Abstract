@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Abstract
 Summary:	Unified interface to mail representations
-Summary(pl):	Zunifikiowany interfejs do reprezentacji listów
+Summary(pl.UTF-8):   Zunifikiowany interfejs do reprezentacji listÃ³w
 Name:		perl-Email-Abstract
 Version:	2.13
 Release:	1
@@ -39,20 +39,20 @@ are encouraged to create their own Email::Abstract::* class by copying
 Email::Abstract::EmailSimple. All modules installed under the
 Email::Abstract hierarchy will be automatically picked up and used.
 
-%description -l pl
-Email::Abstract dostarcza pisz±cym modu³y mo¿liwo¶æ pisania kodu
-obs³uguj±cego listy elektroniczne niezale¿nie od reprezentacji. Na
-przyk³ad w przypadku Mail::Thread lub Mail::ListDetector znacz±ca
-czê¶æ kodu dotyczy czytania nag³ówków z obiektu listu. Tam, gdzie
-poprzednio trzeba by³o podaæ wymagan± nazwê klasy lub zbudowaæ nowy
-obiekt od pocz±tku, mo¿na u¿yæ Email::Abstract do wykonania pewnych
-prostych operacji na obiekcie niezale¿nie od jego reprezentacji.
+%description -l pl.UTF-8
+Email::Abstract dostarcza piszÄ…cym moduÅ‚y moÅ¼liwoÅ›Ä‡ pisania kodu
+obsÅ‚ugujÄ…cego listy elektroniczne niezaleÅ¼nie od reprezentacji. Na
+przykÅ‚ad w przypadku Mail::Thread lub Mail::ListDetector znaczÄ…ca
+czÄ™Å›Ä‡ kodu dotyczy czytania nagÅ‚Ã³wkÃ³w z obiektu listu. Tam, gdzie
+poprzednio trzeba byÅ‚o podaÄ‡ wymaganÄ… nazwÄ™ klasy lub zbudowaÄ‡ nowy
+obiekt od poczÄ…tku, moÅ¼na uÅ¼yÄ‡ Email::Abstract do wykonania pewnych
+prostych operacji na obiekcie niezaleÅ¼nie od jego reprezentacji.
 
-Email::Abstract aktualnie obs³uguje Mail::Internet, MIME::Entity,
+Email::Abstract aktualnie obsÅ‚uguje Mail::Internet, MIME::Entity,
 Mail::Message, Email::Simple oraz Email::MIME. Dla innych
-reprezentacji zaleca siê stworzyæ w³asn± klasê Email::Abstract::*
-poprzez skopiowanie Email::Abstract::EmailSimple. Wszystkie modu³y
-zainstalowane w hierarchii Email::Abstract s± automatycznie u¿ywane.
+reprezentacji zaleca siÄ™ stworzyÄ‡ wÅ‚asnÄ… klasÄ™ Email::Abstract::*
+poprzez skopiowanie Email::Abstract::EmailSimple. Wszystkie moduÅ‚y
+zainstalowane w hierarchii Email::Abstract sÄ… automatycznie uÅ¼ywane.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
