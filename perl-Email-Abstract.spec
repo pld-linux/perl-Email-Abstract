@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Abstract
 Summary:	Unified interface to mail representations
-Summary(pl.UTF-8):   Zunifikiowany interfejs do reprezentacji listów
+Summary(pl.UTF-8):	Zunifikiowany interfejs do reprezentacji listów
 Name:		perl-Email-Abstract
 Version:	2.13
 Release:	1
