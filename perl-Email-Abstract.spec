@@ -9,7 +9,7 @@ Summary:	Unified interface to mail representations
 Summary(pl.UTF-8):	Zunifikiowany interfejs do reprezentacji listów
 Name:		perl-Email-Abstract
 Version:	2.134
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
