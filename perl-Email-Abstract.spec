@@ -8,13 +8,13 @@
 Summary:	Unified interface to mail representations
 Summary(pl.UTF-8):	Zunifikiowany interfejs do reprezentacji listów
 Name:		perl-Email-Abstract
-Version:	2.134
-Release:	2
+Version:	3.001
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	40d578efaf2457960f657420130db926
+# Source0-md5:	ea68d4c3738755456aa3a4a26d79475a
 URL:		http://search.cpan.org/dist/Email-Abstract/
 BuildRequires:	perl-Email-Simple >= 1:1.91
 BuildRequires:	perl-Module-Pluggable >= 1.5
